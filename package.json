@@ -1,0 +1,28 @@
+{
+  "name": "mdwut",
+  "version": "0.0.0",
+  "description": "Final Year Project template write up in Markdown",
+  "dependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:portsoc/mdwut.git"
+  },
+  "keywords": [
+    "portsmouth",
+    "university",
+    "finalyearproject",
+    "writeup",
+    "template",
+    "markdown"
+  ],
+  "author": "Ali Smith <alasdairsmith100@gmail.com> (http://alasdairsmith.org.uk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/portsoc/mdwut/issues"
+  },
+  "homepage": "https://github.com/portsoc/mdwut"
+}
