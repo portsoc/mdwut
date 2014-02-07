@@ -1,0 +1,3 @@
+#### Summary
+
+This chapter described the implementation of ..., which was based on the design in Chapter 3. The implementation was introduced in Section x, and ... . Once the general implementation details had been introduced, several implementation problems were addressed in Section y, including the detailed coverage of ...
