@@ -16,4 +16,4 @@ This chapter introduces the overarching themes of this report and places the mot
 
 <!-- Your words go here-->
 
-![Figure 1: An example diagram that shows four connected things](img/figure1.png)
+![Figure 1: An example diagram that shows four connected things](../../src/img/figure1.png)

@@ -20,6 +20,10 @@ To start the Grunt task, run the following command:
 
 	grunt watch
 
-### Important Note
+### Note on images
+
+As the Markdown files are concatenated into a single file, the image paths are relative to this file. The path to the image directory (within the `src` folder) is `../../src/img/your_filename`.
+
+### Usage for real projects
 
 The `.gitignore` file ignores the generated `public/md/index.md` and `public/index.html` files. This is to stop unnecessary duplication in this repo. If you want to clone it for your actual Final Year Project, you may want to change this.
