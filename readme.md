@@ -19,3 +19,7 @@ Grunt will watch for changes on the Markdown files and automatically compile and
 To start the Grunt task, run the following command:
 
 	grunt watch
+
+### Important Note
+
+The `.gitignore` file ignores the generated `public/md/index.md` and `public/index.html` files. This is to stop unnecessary duplication in this repo. If you want to clone it for your actual Final Year Project, you may want to change this.
