@@ -1,4 +1,4 @@
-### 2.3 Chapter Summary
+#### 2.3 Chapter Summary
 
 In Chapter 1 we proposed ...
 

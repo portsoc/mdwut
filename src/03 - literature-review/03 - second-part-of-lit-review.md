@@ -1,3 +1,3 @@
-### 2.3 Bar
+#### 2.3 Bar
 
 Another something, something literature review...
