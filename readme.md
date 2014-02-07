@@ -18,4 +18,4 @@ Grunt will watch for changes on the Markdown files and automatically compile and
 
 To start the Grunt task, run the following command:
 
-	grunt
+	grunt watch
