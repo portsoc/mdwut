@@ -1,0 +1,3 @@
+### Chapter 2 A Review of...
+
+This chapter discusses the state-of-the-art of ... considered during the analysis and design phase of this project. The investigation served x purposes: firstly, we wished to identify ... (see section 2.1); and secondly we wished to establish ... (see section 2.2). Finally, section 2.3 summarises the chapter.
