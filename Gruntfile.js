@@ -22,7 +22,7 @@ module.exports = function(grunt) {
                 src: [
                     'src/01 - title-and-abstract/*.md',
                     'src/02 - introduction/*.md',
-                    'src/03 - literature-review.md',
+                    'src/03 - literature-review/*.md',
                     'src/04 - analysis/*.md',
                     'src/05 - development/*.md',
                     'src/06 - evaluation/*.md'
@@ -35,7 +35,7 @@ module.exports = function(grunt) {
                 files: [
                     'src/01 - title-and-abstract/*.md',
                     'src/02 - introduction/*.md',
-                    'src/03 - literature-review.md',
+                    'src/03 - literature-review/*.md',
                     'src/04 - analysis/*.md',
                     'src/05 - development/*.md',
                     'src/06 - evaluation/*.md'
