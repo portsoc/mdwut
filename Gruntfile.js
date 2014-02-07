@@ -16,16 +16,19 @@ module.exports = function(grunt) {
         },
         concat: {
             options: {
-                separator: '<br />',
+                separator: '<br />\n',
             },
             dist: {
                 src: [
                     'src/01 - title-and-abstract/*.md',
                     'src/02 - introduction/*.md',
                     'src/03 - literature-review/*.md',
-                    'src/04 - analysis/*.md',
-                    'src/05 - development/*.md',
-                    'src/06 - evaluation/*.md'
+                    'src/04 - design/*.md',
+                    'src/05 - implementation/*.md',
+                    'src/06 - testing-and-evaluation/*.md',
+                    'src/07 - conclusion/*.md',
+                    'src/08 - references/*.md',
+                    'src/09 - appendices/*.md'
                 ],
                 dest: 'public/md/index.md'
             }
@@ -36,9 +39,12 @@ module.exports = function(grunt) {
                     'src/01 - title-and-abstract/*.md',
                     'src/02 - introduction/*.md',
                     'src/03 - literature-review/*.md',
-                    'src/04 - analysis/*.md',
-                    'src/05 - development/*.md',
-                    'src/06 - evaluation/*.md'
+                    'src/04 - design/*.md',
+                    'src/05 - implementation/*.md',
+                    'src/06 - testing-and-evaluation/*.md',
+                    'src/07 - conclusion/*.md',
+                    'src/08 - references/*.md',
+                    'src/09 - appendices/*.md'
                 ],
                 tasks: ['default'],
                 options: {
