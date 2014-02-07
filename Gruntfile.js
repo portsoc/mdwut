@@ -20,7 +20,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 src: [
-                    'src/01 - abstract.md',
+                    'src/01 - title-and-abstract/*.md',
                     'src/02 - introduction/*.md',
                     'src/03 - literature-review.md',
                     'src/04 - analysis/*.md',
@@ -33,7 +33,7 @@ module.exports = function(grunt) {
         watch: {
             scripts: {
                 files: [
-                    'src/01 - abstract.md',
+                    'src/01 - title-and-abstract/*.md',
                     'src/02 - introduction/*.md',
                     'src/03 - literature-review.md',
                     'src/04 - analysis/*.md',
