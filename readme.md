@@ -24,13 +24,13 @@ To start the Grunt task, run the following command:
 
 It is recommended that you edit the files in the `src` directory - they will be automatically converted to the single HTML file. Plus, they're nicely split up into sections for you!
 
-It is recommended that you edit the files in the `src` directory - nicely broken down into sections.
-
 The `.gitignore` file ignores the generated `public/md/index.md` and `public/index.html` files. This is to stop unnecessary duplication in this repo. If you want to clone it for your actual Final Year Project, you may want to change this.
 
 #### Adding new sections
 
-To add a new section, you will have to edit the `Gruntfile.js` - the config file for Grunt. Add the file path to the two arrays in the `concat` and `watch` config. Wildcards can be used, by using the `*` character.
+To add a new section, simply create a new folder inside of `src`. 
+
+*Note:* the `grunt watch` task compiles the folders and their contents in alphabetical order, so ensure the newly created folder is named appropriately. Beginning the folder name with a number is an easy way to ensure they are ordered correctly.
 
 ### Note on images
 
