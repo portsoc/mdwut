@@ -20,15 +20,7 @@ module.exports = function(grunt) {
             },
             dist: {
                 src: [
-                    'src/01 - title-and-abstract/*.md',
-                    'src/02 - introduction/*.md',
-                    'src/03 - literature-review/*.md',
-                    'src/04 - design/*.md',
-                    'src/05 - implementation/*.md',
-                    'src/06 - testing-and-evaluation/*.md',
-                    'src/07 - conclusion/*.md',
-                    'src/08 - references/*.md',
-                    'src/09 - appendices/*.md'
+                    'src/**/*.md'
                 ],
                 dest: 'public/md/index.md'
             }
@@ -36,15 +28,7 @@ module.exports = function(grunt) {
         watch: {
             scripts: {
                 files: [
-                    'src/01 - title-and-abstract/*.md',
-                    'src/02 - introduction/*.md',
-                    'src/03 - literature-review/*.md',
-                    'src/04 - design/*.md',
-                    'src/05 - implementation/*.md',
-                    'src/06 - testing-and-evaluation/*.md',
-                    'src/07 - conclusion/*.md',
-                    'src/08 - references/*.md',
-                    'src/09 - appendices/*.md'
+                    'src/**/*.md'
                 ],
                 tasks: ['default'],
                 options: {

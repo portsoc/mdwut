@@ -4,7 +4,9 @@
   "description": "Final Year Project template write up in Markdown",
   "dependencies": {
     "grunt": "~0.4.2",
-    "grunt-contrib-concat": "~0.3.0"
+    "grunt-markdown": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3"
   },
   "devDependencies": {},
   "repository": {
